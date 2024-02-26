@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/PageLoader.java" afterDir="false" />
+    <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +199,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708938901641</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1708955046098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708955046098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +223,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change To Automation Workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change To Automation Workspace" />
+    <MESSAGE value="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
