@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/PageLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" afterDir="false" />
@@ -44,6 +50,7 @@
     "TestNG.Main.Fill_Fields.executor": "Debug",
     "TestNG.Main.Open_Web_Browser.executor": "Run",
     "TestNG.Main.executor": "Run",
+    "TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
@@ -51,15 +58,49 @@
     "onboarding.tips.debug.path": "X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/Automation - Git/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
+  <component name="QodanaCloudProjectLink">
+    <option name="linkedProjectId" value="pWnkg" />
+    <option name="linkedProjectName" value="Test2_-_For_Educational_Purposes_Only" />
+    <option name="organizationId" value="AD4EP" />
+    <option name="userId" value="ADBRd" />
+  </component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\guye\AppData\Local\Temp\qodana_output1\qodana.sarif.json" />
+        <option name="reportGuid" value="5a67bdea-8267-4f08-8fc6-8692d2182fef" />
+        <option name="reportName" value="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\guye\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f53e9300-02db-42f0-a48d-8095556e5788" reportId="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
+      <ReportDescription localRun="true" path="C:\Users\guye\AppData\Local\Temp\qodana_output1\qodana.sarif.json" reportGuid="5a67bdea-8267-4f08-8fc6-8692d2182fef" reportId="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
+    </option>
+  </component>
+  <component name="QodanaSettings">
+    <option name="autoLoadCloudReport" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Pages" />
+      <recent name="Psg_Security" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.Main">
     <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_-_Git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Psg_Security.*" />
+          <option name="PATTERN" value="Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +117,7 @@
       <module name="Automation_-_Git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Psg_Security.*" />
+          <option name="PATTERN" value="Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,9 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test2_-_For_Educational_Purposes_Only" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/qodana.yaml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Main" />
+        <item itemvalue="TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" />
         <item itemvalue="TestNG.Main.Open_Web_Browser" />
       </list>
     </recent_temporary>
@@ -145,8 +197,27 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708931574886</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="Change To Automation Workspace">
+      <option name="closed" value="true" />
+      <created>1708938901641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708938901641</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change To Automation Workspace" />
@@ -160,11 +231,10 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>

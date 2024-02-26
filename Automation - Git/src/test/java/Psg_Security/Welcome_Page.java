@@ -1,5 +1,4 @@
 package Psg_Security;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -12,5 +11,4 @@ public class Welcome_Page {
 
     @FindBy(xpath = "//span[contains(@class, 'recaptcha-checkbox')]//div")
     WebElement Capcha;
-
 }
