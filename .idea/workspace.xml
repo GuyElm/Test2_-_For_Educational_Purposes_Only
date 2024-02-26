@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -42,6 +47,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "Sample Text",
     "onboarding.tips.debug.path": "X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/Automation - Git/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -131,7 +137,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1708931319822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="Change To Automation Workspace">
+      <option name="closed" value="true" />
+      <created>1708931574886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1708931574886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +159,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
