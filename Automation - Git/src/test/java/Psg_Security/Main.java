@@ -26,7 +26,7 @@ public class Main {
         //System.setProperty("webdriver.chrome.driver", "C:\\Automation\\Automation_29.06\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://danel-db:5200/");
+        driver.get("http://danel-db:7676/");
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         welcome_page = PageFactory.initElements(driver, Welcome_Page.class);
@@ -35,14 +35,14 @@ public class Main {
     @Test
     public void Open_Web_Browser() {
         ((JavascriptExecutor) driver).executeScript(
-                "window.localStorage.setItem('apiUrl', 'http://danel-db:5201/api/');"
+                "window.localStorage.setItem('apiUrl', 'http://danel-db:7575/api/');"
         );
     }
 
     @Test
     public void Fill_Fields(){
         driver.navigate().refresh();
-        WebElement checkbox = driver.findElement(By.xpath("//span[@id='recaptcha-anchor']"));
+        //WebElement checkbox = driver.findElement(By.xpath("//span[@id='recaptcha-anchor']"));
         //WebDriverWait wait = new WebDriverWait(driver, 10); // Wait for up to 10 seconds
         welcome_page.TZ_Number.sendKeys("999491798'");
         welcome_page.Phone_Number.sendKeys("111111111");
