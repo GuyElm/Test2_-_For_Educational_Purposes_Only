@@ -6,15 +6,21 @@ import org.openqa.selenium.support.FindBy;
 
 public class Welcome_Page extends BasePage {
     @FindBy(xpath = "//div[@data-fieldId='7481']//input")
-    WebElement TZ_Number;
+    public WebElement TZ_Number_Input;
 
     @FindBy(xpath = "//div[@data-fieldId='7483']//input")
-    WebElement Phone_Number;
+    WebElement Phone_Number_Input;
 
     @FindBy(xpath = "//span[contains(@class, 'recaptcha-checkbox')]//div")
     WebElement Capcha;
 
     public Welcome_Page(WebDriver driver){
         super(driver);
+    }
+    public void enterTZNumber(String TZ_Number) {
+        TZ_Number_Input.sendKeys(TZ_Number);
+    }
+    public void enterPhoneNumber(String Phone_Number) {
+        Phone_Number_Input.sendKeys(Phone_Number);
     }
 }
