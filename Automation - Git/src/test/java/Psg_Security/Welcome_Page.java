@@ -9,11 +9,14 @@ public class Welcome_Page extends BasePage {
     public WebElement TZ_Number_Input;
 
     @FindBy(xpath = "//div[@data-fieldId='7483']//input")
-    WebElement Phone_Number_Input;
+    public WebElement Phone_Number_Input;
 
     @FindBy(xpath = "//span[contains(@class, 'recaptcha-checkbox')]//div")
     WebElement Capcha;
 
+    String Wrong_Tz_Number = "999491798'";
+    String Wrong_Phone_Number = "111111111";
+    String Special_Characters = "[\"#$%&'()*+,-./:;<=>?@[\\\\]^_`{|}~]";
     public Welcome_Page(WebDriver driver){
         super(driver);
     }

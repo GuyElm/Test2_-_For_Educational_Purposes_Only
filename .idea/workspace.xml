@@ -27,9 +27,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2caXAYY0vIdRDdyfj8QIzFvVUbz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Main.Fill_Fields.executor": "Debug",
+    "TestNG.Main.Fill_Fields.executor": "Run",
     "TestNG.Main.Open_Web_Browser.executor": "Run",
     "TestNG.Main.executor": "Run",
     "TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml.executor": "Run",
@@ -62,18 +62,6 @@
     <option name="organizationId" value="AD4EP" />
     <option name="userId" value="ADBRd" />
   </component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\guye\AppData\Local\Temp\qodana_output1\qodana.sarif.json" />
-        <option name="reportGuid" value="5a67bdea-8267-4f08-8fc6-8692d2182fef" />
-        <option name="reportName" value="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\guye\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f53e9300-02db-42f0-a48d-8095556e5788" reportId="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
@@ -92,7 +80,7 @@
       <recent name="Psg_Security" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Main">
+  <component name="RunManager" selected="TestNG.Main.Fill_Fields">
     <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_-_Git" />
       <extension name="coverage">
@@ -104,6 +92,24 @@
       <option name="PACKAGE_NAME" value="Psg_Security" />
       <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.Fill_Fields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_-_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Psg_Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Psg_Security" />
+      <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
+      <option name="METHOD_NAME" value="Fill_Fields" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Main.Fill_Fields" />
         <item itemvalue="TestNG.Main" />
         <item itemvalue="TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" />
         <item itemvalue="TestNG.Main.Open_Web_Browser" />
@@ -218,7 +225,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1709121745565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎-00008" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1709200826767</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709200826767</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
