@@ -3,24 +3,26 @@ import Pages.BaseTest;
 import Pages.PageLoader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Main extends BaseTest {
 
     @Test
-    public void Fill_Fields(){
+    public void Fill_Opening_Page_Wrongly(){
         PageLoader pageLoader = new PageLoader(driver);
-        pageLoader.welcome_page.enterTZNumber(pageLoader.welcome_page.Wrong_Tz_Number);
+        pageLoader.welcome_page.enterTZNumber(Welcome_Page.Wrong_Tz_Number);
         pageLoader.welcome_page.enterPhoneNumber(pageLoader.welcome_page.Wrong_Phone_Number);
-        Pattern pattern = Pattern.compile(pageLoader.welcome_page.Special_Characters);  //Define the regular expression pattern to match special characters
-        Matcher matcher = pattern.matcher(pageLoader.welcome_page.Wrong_Tz_Number); //Create a Matcher object
-        StringBuilder specialCharacters = new StringBuilder(); //Create a StringBuilder to store extracted special characters
-
-        while (matcher.find()){
-            specialCharacters.append(matcher.group());
-        } //Find and append all special characters to the StringBuilder
-
+        StringBuilder specialCharacters = Welcome_Page.Finding_Special_Characters(pageLoader, Welcome_Page.Wrong_Tz_Number);
         Assert.assertEquals(specialCharacters.length(), 1, "Special Characters In The TZ_Number: " + specialCharacters.toString());
     }
+
+    @Test
+    public void Fill_Opening_Page_The_Right_Way(){
+        driver.navigate().refresh();
+        PageLoader pageLoader = new PageLoader(driver);
+        pageLoader.welcome_page.enterTZNumber(Welcome_Page.Right_Tz_Number);
+        pageLoader.welcome_page.enterPhoneNumber(pageLoader.welcome_page.Right_Phone_Number);
+        StringBuilder specialCharacters = Welcome_Page.Finding_Special_Characters(pageLoader, Welcome_Page.Right_Tz_Number);
+        Assert.assertEquals(specialCharacters.length(), 0, "Special Characters In The TZ_Number: " + specialCharacters.toString());
+    }
+
 }

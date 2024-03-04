@@ -80,7 +80,7 @@
       <recent name="Psg_Security" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Main.Fill_Fields">
+  <component name="RunManager" selected="TestNG.Main">
     <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_-_Git" />
       <extension name="coverage">
@@ -98,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.Fill_Fields" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.Fill_Opening_Page_Wrongly" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_-_Git" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Psg_Security" />
       <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
-      <option name="METHOD_NAME" value="Fill_Fields" />
+      <option name="METHOD_NAME" value="Fill_Opening_Page_Wrongly" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Main.Fill_Fields" />
         <item itemvalue="TestNG.Main" />
+        <item itemvalue="TestNG.Main.Fill_Opening_Page_Wrongly" />
         <item itemvalue="TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" />
         <item itemvalue="TestNG.Main.Open_Web_Browser" />
       </list>
@@ -233,7 +233,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1709200826767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1709556123966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709556123966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +267,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
