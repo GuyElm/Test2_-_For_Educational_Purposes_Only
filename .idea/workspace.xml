@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/HalvaotTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages_Halvaot/BaseTestHalvaot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages_Halvaot/PageLoaderHalvaot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages_Psagot/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages_Psagot/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages/PageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Pages_Psagot/PageLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Welcome_Page.java" afterDir="false" />
     </list>
@@ -41,7 +49,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.BaseTest_Halvaot.executor": "Run",
+    "TestNG.HalvaotTests.executor": "Run",
     "TestNG.Main.Fill_Fields.executor": "Run",
+    "TestNG.Main.Fill_Opening_Page_The_Right_Way.executor": "Run",
+    "TestNG.Main.Fill_Opening_Page_Wrongly.executor": "Run",
     "TestNG.Main.Open_Web_Browser.executor": "Run",
     "TestNG.Main.executor": "Run",
     "TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml.executor": "Run",
@@ -80,18 +92,70 @@
       <recent name="Psg_Security" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Main">
+  <component name="RunManager" selected="TestNG.HalvaotTests">
+    <configuration name="BaseTest_Halvaot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_-_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages_Halvaot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages_Halvaot" />
+      <option name="MAIN_CLASS_NAME" value="Pages_Halvaot.BaseTest_Halvaot" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalvaotTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_-_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Halvaot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Halvaot" />
+      <option name="MAIN_CLASS_NAME" value="Halvaot.HalvaotTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_-_Git" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pages.*" />
+          <option name="PATTERN" value="Pages_Psagot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Psg_Security" />
       <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.Fill_Opening_Page_The_Right_Way" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_-_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Psg_Security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Psg_Security" />
+      <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
+      <option name="METHOD_NAME" value="Fill_Opening_Page_The_Right_Way" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -116,40 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.Open_Web_Browser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_-_Git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Psg_Security" />
-      <option name="MAIN_CLASS_NAME" value="Psg_Security.Main" />
-      <option name="METHOD_NAME" value="Open_Web_Browser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Test2_-_For_Educational_Purposes_Only" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/qodana.yaml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HalvaotTests" />
+        <item itemvalue="TestNG.BaseTest_Halvaot" />
         <item itemvalue="TestNG.Main" />
+        <item itemvalue="TestNG.Main.Fill_Opening_Page_The_Right_Way" />
         <item itemvalue="TestNG.Main.Fill_Opening_Page_Wrongly" />
-        <item itemvalue="TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml" />
-        <item itemvalue="TestNG.Main.Open_Web_Browser" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +278,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1709556123966</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎-00010" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1709557702664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1709557702664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,11 +312,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Automation - Git/src/test/java/Psg_Security/Main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

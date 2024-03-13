@@ -1,4 +1,4 @@
-package Pages;
+package Pages_Psagot;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

@@ -1,6 +1,5 @@
 package Psg_Security;
-import Pages.BasePage;
-import Pages.PageLoader;
+import Pages_Psagot.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,7 +26,7 @@ public class Welcome_Page extends BasePage {
         super(driver);
     }
 
-    static StringBuilder Finding_Special_Characters(PageLoader pageLoader, String Tz_Number) {
+    static StringBuilder Finding_Special_Characters(String Tz_Number) {
         Pattern pattern = Pattern.compile(Special_Characters);  //Define the regular expression pattern to match special characters
         Matcher matcher = pattern.matcher(Tz_Number); //Create a Matcher object
         StringBuilder specialCharacters = new StringBuilder(); //Create a StringBuilder to store extracted special characters

@@ -1,4 +1,4 @@
-package Pages;
+package Pages_Psagot;
 
 import Psg_Security.Welcome_Page;
 import org.openqa.selenium.WebDriver;
