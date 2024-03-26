@@ -30,7 +30,7 @@ public class BaseTestHalvaot {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 8);
         driver.get("http://danel-mazagot:1018/?Ticket=d75312f2-33a9-4c29-aa42-a0cf07c047b2");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         pageLoaderHalvaot = PageFactory.initElements(driver, PageLoaderHalvaot.class);
