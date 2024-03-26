@@ -67,7 +67,7 @@ public class DealPage extends BasePage {
         LocalDateTime currentDateTime = LocalDateTime.now();
 
         // Define a formatter to format the date and time
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
         return currentDateTime.format(formatter);
     }

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/DealPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/DealPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/HalvaotTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/HalvaotTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GuyElm"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GuyElm&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -50,32 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.BaseTestHalvaot.Open_Web_Browser.executor": "Run",
-    "TestNG.BaseTest_Halvaot.executor": "Run",
-    "TestNG.HalvaotTests.Fill_Deal_Name.executor": "Run",
-    "TestNG.HalvaotTests.executor": "Run",
-    "TestNG.Main.Fill_Fields.executor": "Run",
-    "TestNG.Main.Fill_Opening_Page_The_Right_Way.executor": "Run",
-    "TestNG.Main.Fill_Opening_Page_Wrongly.executor": "Run",
-    "TestNG.Main.Open_Web_Browser.executor": "Run",
-    "TestNG.Main.executor": "Run",
-    "TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last.edited.regexp": "Sample Text",
-    "onboarding.tips.debug.path": "X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/Automation - Git/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.qodana"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BaseTestHalvaot.Open_Web_Browser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BaseTest_Halvaot.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HalvaotTests.Fill_Deal_Name.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HalvaotTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.Fill_Fields.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.Fill_Opening_Page_The_Right_Way.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.Fill_Opening_Page_Wrongly.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.Open_Web_Browser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Main.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/qodana.yaml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;X:/פריוריטי/Guy Elmakias - QA/Automation_Proj/Test2 - For Educational Purposes Only/Automation - Git/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaCloudProjectLink">
     <option name="linkedProjectId" value="pWnkg" />
     <option name="linkedProjectName" value="Test2_-_For_Educational_Purposes_Only" />
@@ -328,7 +326,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1711461912597</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL‎-00015" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1711462916488</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL‎-00015" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1711462916488</updated>
+    </task>
+    <task id="LOCAL‎-00016" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1711462943192</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL‎-00016" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1711462943192</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
