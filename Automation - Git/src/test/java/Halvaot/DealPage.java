@@ -13,13 +13,15 @@ import java.util.List;
 import java.util.Random;
 
 public class DealPage extends BasePage {
-    public DealPage(WebDriver driver) throws IOException { super(driver); }
+    public DealPage(WebDriver driver) throws IOException {
+        super(driver);
+    }
 
     static List<String> readNamesFromCSV(String filePath) throws IOException {
         List<String> names = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
         String line;
-        while ((line = reader.readLine()) != null){
+        while ((line = reader.readLine()) != null) {
             String[] parts = line.split(",");
             names.add(parts[0].trim());
         }
@@ -34,11 +36,12 @@ public class DealPage extends BasePage {
     }
 
 
-    @FindBy (xpath = "//a[@class='btn btn-primary ml-2 p-2 px-4 pull-right font-weight-bold']")
+    @FindBy(xpath = "//a[@class='btn btn-primary ml-2 p-2 px-4 pull-right font-weight-bold']")
     public static WebElement Create_New_Deal_Button;
 
-    @FindBy (xpath = "//input[@placeholder='שם העסקה']")
+    @FindBy(xpath = "//input[@placeholder='שם העסקה']")
     public static WebElement Deal_Name;
+
     public static void ClickCreateNewDeal() throws InterruptedException {
         Thread.sleep(9000);
         Create_New_Deal_Button.click();
