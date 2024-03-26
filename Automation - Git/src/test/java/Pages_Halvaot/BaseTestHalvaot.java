@@ -1,5 +1,6 @@
 package Pages_Halvaot;
 
+import Halvaot.DealPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -15,17 +16,18 @@ public class BaseTestHalvaot {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected PageLoaderHalvaot pageLoaderHalvaot;
-
+    protected DealPage dealPage;
     @BeforeClass
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);
-        driver.get("http://danel-mazagot:1018/?Ticket=ffbd2705-1f86-418d-bc3b-881618229729");
+        driver.get("http://danel-mazagot:1018/?Ticket=d75312f2-33a9-4c29-aa42-a0cf07c047b2");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         pageLoaderHalvaot = PageFactory.initElements(driver,PageLoaderHalvaot.class);
         pageLoaderHalvaot =new PageLoaderHalvaot(driver);
+        dealPage = PageFactory.initElements(driver, DealPage.class);
     }
 
     @Test
