@@ -23,13 +23,13 @@ public class DealPage extends BasePage {
         String line;
         while ((line = reader.readLine()) != null) {
             String[] parts = line.split(",");
-            names.add(parts[0].trim());
+            names.add(parts[0].trim() + " " + parts[1].trim()); // Append both parts to the list
         }
         reader.close();
         return names;
     }
 
-    static String getRandomName(List<String> names) {
+    static String generateFullName(List<String> names) {
         Random random = new Random();
         int randomIndex = random.nextInt(names.size());
         return names.get(randomIndex);
