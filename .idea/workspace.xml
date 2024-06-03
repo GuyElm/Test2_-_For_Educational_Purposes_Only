@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1423b93d-7b44-4afd-9169-c9b8dc992728" name="Changes" comment="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
-      <change beforePath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/DealPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/src/test/java/Halvaot/DealPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/target/test-classes/Halvaot/DealPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/target/test-classes/Halvaot/DealPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation - Git/target/test-classes/Halvaot/HalvaotTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Automation - Git/target/test-classes/Halvaot/HalvaotTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +30,12 @@
     &quot;assignee&quot;: &quot;GuyElm&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="772fface-a44b-4c6c-8ae4-a487487801b5" />
-        <option name="url" value="https://github.com/GuyElm/Test2_-_For_Educational_Purposes_Only.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GuyElm/Test2_-_For_Educational_Purposes_Only.git",
+    "accountId": "772fface-a44b-4c6c-8ae4-a487487801b5"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -74,12 +74,6 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;
   }
 }</component>
-  <component name="QodanaCloudProjectLink">
-    <option name="linkedProjectId" value="pWnkg" />
-    <option name="linkedProjectName" value="Test2_-_For_Educational_Purposes_Only" />
-    <option name="organizationId" value="AD4EP" />
-    <option name="userId" value="ADBRd" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\guye\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f53e9300-02db-42f0-a48d-8095556e5788" reportId="Test2 - For Educational Purposes Only/qodana/2024-02-26" />
@@ -197,13 +191,6 @@
         <item itemvalue="TestNG.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -342,7 +329,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1711462943192</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL‎-00017" summary="Change To Automation Workspace&#10;Mostly Orginazation of classes and methods">
+      <option name="closed" value="true" />
+      <created>1711463157562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL‎-00017" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1711463157562</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
